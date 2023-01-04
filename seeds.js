@@ -1,4 +1,5 @@
-const countries = [
+module.exports = [
+
     {
         "name": "Afghanistan",
         "isoCode": "AF",
@@ -106,6 +107,7 @@ const countries = [
         "currency": "AMD",
         "latitude": "40.00000000",
         "longitude": "45.00000000",
+
     },
     {
         "name": "Aruba",
@@ -115,6 +117,7 @@ const countries = [
         "currency": "AWG",
         "latitude": "12.50000000",
         "longitude": "-69.96666666",
+
     },
     {
         "name": "Australia",
@@ -124,6 +127,7 @@ const countries = [
         "currency": "AUD",
         "latitude": "-27.00000000",
         "longitude": "133.00000000",
+
     },
     {
         "name": "Austria",
@@ -151,6 +155,7 @@ const countries = [
         "currency": "BSD",
         "latitude": "24.25000000",
         "longitude": "-76.00000000",
+
     },
     {
         "name": "Bahrain",
@@ -160,6 +165,7 @@ const countries = [
         "currency": "BHD",
         "latitude": "26.00000000",
         "longitude": "50.55000000",
+
     },
     {
         "name": "Bangladesh",
@@ -169,6 +175,7 @@ const countries = [
         "currency": "BDT",
         "latitude": "24.00000000",
         "longitude": "90.00000000",
+
     },
     {
         "name": "Barbados",
@@ -178,6 +185,7 @@ const countries = [
         "currency": "BBD",
         "latitude": "13.16666666",
         "longitude": "-59.53333333",
+
     },
     {
         "name": "Belarus",
@@ -187,6 +195,7 @@ const countries = [
         "currency": "BYN",
         "latitude": "53.00000000",
         "longitude": "28.00000000",
+
     },
     {
         "name": "Belgium",
@@ -196,6 +205,7 @@ const countries = [
         "currency": "EUR",
         "latitude": "50.83333333",
         "longitude": "4.00000000",
+
     },
     {
         "name": "Belize",
@@ -205,6 +215,7 @@ const countries = [
         "currency": "BZD",
         "latitude": "17.25000000",
         "longitude": "-88.75000000",
+
     },
     {
         "name": "Benin",
@@ -214,6 +225,7 @@ const countries = [
         "currency": "XOF",
         "latitude": "9.50000000",
         "longitude": "2.25000000",
+
     },
     {
         "name": "Bermuda",
@@ -223,6 +235,7 @@ const countries = [
         "currency": "BMD",
         "latitude": "32.33333333",
         "longitude": "-64.75000000",
+
     },
     {
         "name": "Bhutan",
@@ -232,6 +245,7 @@ const countries = [
         "currency": "BTN",
         "latitude": "27.50000000",
         "longitude": "90.50000000",
+
     },
     {
         "name": "Bolivia",
@@ -241,6 +255,7 @@ const countries = [
         "currency": "BOB",
         "latitude": "-17.00000000",
         "longitude": "-65.00000000",
+
     },
     {
         "name": "Bosnia and Herzegovina",
@@ -250,6 +265,7 @@ const countries = [
         "currency": "BAM",
         "latitude": "44.00000000",
         "longitude": "18.00000000",
+
     },
     {
         "name": "Botswana",
@@ -259,6 +275,7 @@ const countries = [
         "currency": "BWP",
         "latitude": "-22.00000000",
         "longitude": "24.00000000",
+
     },
     {
         "name": "Bouvet Island",
@@ -268,6 +285,7 @@ const countries = [
         "currency": "NOK",
         "latitude": "-54.43333333",
         "longitude": "3.40000000",
+
     },
     {
         "name": "Brazil",
@@ -277,6 +295,7 @@ const countries = [
         "currency": "BRL",
         "latitude": "-10.00000000",
         "longitude": "-55.00000000",
+
     },
     {
         "name": "British Indian Ocean Territory",
@@ -286,6 +305,7 @@ const countries = [
         "currency": "USD",
         "latitude": "-6.00000000",
         "longitude": "71.50000000",
+
     },
     {
         "name": "Brunei",
@@ -295,6 +315,7 @@ const countries = [
         "currency": "BND",
         "latitude": "4.50000000",
         "longitude": "114.66666666",
+
     },
     {
         "name": "Bulgaria",
@@ -304,6 +325,7 @@ const countries = [
         "currency": "BGN",
         "latitude": "43.00000000",
         "longitude": "25.00000000",
+
     },
     {
         "name": "Burkina Faso",
@@ -313,6 +335,7 @@ const countries = [
         "currency": "XOF",
         "latitude": "13.00000000",
         "longitude": "-2.00000000",
+
     },
     {
         "name": "Burundi",
@@ -322,6 +345,7 @@ const countries = [
         "currency": "BIF",
         "latitude": "-3.50000000",
         "longitude": "30.00000000",
+
     },
     {
         "name": "Cambodia",
@@ -331,6 +355,7 @@ const countries = [
         "currency": "KHR",
         "latitude": "13.00000000",
         "longitude": "105.00000000",
+
     },
     {
         "name": "Cameroon",
@@ -340,6 +365,7 @@ const countries = [
         "currency": "XAF",
         "latitude": "6.00000000",
         "longitude": "12.00000000",
+
     },
     {
         "name": "Canada",
@@ -349,6 +375,7 @@ const countries = [
         "currency": "CAD",
         "latitude": "60.00000000",
         "longitude": "-95.00000000",
+
     },
     {
         "name": "Cape Verde",
@@ -358,6 +385,7 @@ const countries = [
         "currency": "CVE",
         "latitude": "16.00000000",
         "longitude": "-24.00000000",
+
     },
     {
         "name": "Cayman Islands",
@@ -367,6 +395,7 @@ const countries = [
         "currency": "KYD",
         "latitude": "19.50000000",
         "longitude": "-80.50000000",
+
     },
     {
         "name": "Central African Republic",
@@ -376,6 +405,7 @@ const countries = [
         "currency": "XAF",
         "latitude": "7.00000000",
         "longitude": "21.00000000",
+
     },
     {
         "name": "Chad",
@@ -385,6 +415,7 @@ const countries = [
         "currency": "XAF",
         "latitude": "15.00000000",
         "longitude": "19.00000000",
+
     },
     {
         "name": "Chile",
@@ -394,6 +425,7 @@ const countries = [
         "currency": "CLP",
         "latitude": "-30.00000000",
         "longitude": "-71.00000000",
+
     },
     {
         "name": "China",
@@ -403,6 +435,7 @@ const countries = [
         "currency": "CNY",
         "latitude": "35.00000000",
         "longitude": "105.00000000",
+
     },
     {
         "name": "Christmas Island",
@@ -412,6 +445,7 @@ const countries = [
         "currency": "AUD",
         "latitude": "-10.50000000",
         "longitude": "105.66666666",
+
     },
     {
         "name": "Cocos (Keeling) Islands",
@@ -421,6 +455,7 @@ const countries = [
         "currency": "AUD",
         "latitude": "-12.50000000",
         "longitude": "96.83333333",
+
     },
     {
         "name": "Colombia",
@@ -430,6 +465,7 @@ const countries = [
         "currency": "COP",
         "latitude": "4.00000000",
         "longitude": "-72.00000000",
+
     },
     {
         "name": "Comoros",
@@ -439,6 +475,7 @@ const countries = [
         "currency": "KMF",
         "latitude": "-12.16666666",
         "longitude": "44.25000000",
+
     },
     {
         "name": "Congo",
@@ -448,6 +485,7 @@ const countries = [
         "currency": "XAF",
         "latitude": "-1.00000000",
         "longitude": "15.00000000",
+
     },
     {
         "name": "Democratic Republic of the Congo",
@@ -457,6 +495,7 @@ const countries = [
         "currency": "CDF",
         "latitude": "0.00000000",
         "longitude": "25.00000000",
+
     },
     {
         "name": "Cook Islands",
@@ -466,6 +505,7 @@ const countries = [
         "currency": "NZD",
         "latitude": "-21.23333333",
         "longitude": "-159.76666666",
+
     },
     {
         "name": "Costa Rica",
@@ -475,6 +515,7 @@ const countries = [
         "currency": "CRC",
         "latitude": "10.00000000",
         "longitude": "-84.00000000",
+
     },
     {
         "name": "Cote D'Ivoire (Ivory Coast)",
@@ -484,6 +525,7 @@ const countries = [
         "currency": "XOF",
         "latitude": "8.00000000",
         "longitude": "-5.00000000",
+
     },
     {
         "name": "Croatia",
@@ -493,6 +535,7 @@ const countries = [
         "currency": "HRK",
         "latitude": "45.16666666",
         "longitude": "15.50000000",
+
     },
     {
         "name": "Cuba",
@@ -502,6 +545,7 @@ const countries = [
         "currency": "CUP",
         "latitude": "21.50000000",
         "longitude": "-80.00000000",
+
     },
     {
         "name": "Cyprus",
@@ -511,6 +555,7 @@ const countries = [
         "currency": "EUR",
         "latitude": "35.00000000",
         "longitude": "33.00000000",
+
     },
     {
         "name": "Czech Republic",
@@ -520,6 +565,7 @@ const countries = [
         "currency": "CZK",
         "latitude": "49.75000000",
         "longitude": "15.50000000",
+
     },
     {
         "name": "Denmark",
@@ -529,6 +575,7 @@ const countries = [
         "currency": "DKK",
         "latitude": "56.00000000",
         "longitude": "10.00000000",
+
     },
     {
         "name": "Djibouti",
@@ -538,6 +585,7 @@ const countries = [
         "currency": "DJF",
         "latitude": "11.50000000",
         "longitude": "43.00000000",
+
     },
     {
         "name": "Dominica",
@@ -547,6 +595,7 @@ const countries = [
         "currency": "XCD",
         "latitude": "15.41666666",
         "longitude": "-61.33333333",
+
     },
     {
         "name": "Dominican Republic",
@@ -556,6 +605,7 @@ const countries = [
         "currency": "DOP",
         "latitude": "19.00000000",
         "longitude": "-70.66666666",
+
     },
     {
         "name": "East Timor",
@@ -565,6 +615,7 @@ const countries = [
         "currency": "USD",
         "latitude": "-8.83333333",
         "longitude": "125.91666666",
+
     },
     {
         "name": "Ecuador",
@@ -574,6 +625,7 @@ const countries = [
         "currency": "USD",
         "latitude": "-2.00000000",
         "longitude": "-77.50000000",
+
     },
     {
         "name": "Egypt",
@@ -583,6 +635,7 @@ const countries = [
         "currency": "EGP",
         "latitude": "27.00000000",
         "longitude": "30.00000000",
+
     },
     {
         "name": "El Salvador",
@@ -592,6 +645,7 @@ const countries = [
         "currency": "USD",
         "latitude": "13.83333333",
         "longitude": "-88.91666666",
+
     },
     {
         "name": "Equatorial Guinea",
@@ -601,6 +655,7 @@ const countries = [
         "currency": "XAF",
         "latitude": "2.00000000",
         "longitude": "10.00000000",
+
     },
     {
         "name": "Eritrea",
@@ -610,6 +665,7 @@ const countries = [
         "currency": "ERN",
         "latitude": "15.00000000",
         "longitude": "39.00000000",
+
     },
     {
         "name": "Estonia",
@@ -619,6 +675,7 @@ const countries = [
         "currency": "EUR",
         "latitude": "59.00000000",
         "longitude": "26.00000000",
+
     },
     {
         "name": "Ethiopia",
@@ -628,6 +685,7 @@ const countries = [
         "currency": "ETB",
         "latitude": "8.00000000",
         "longitude": "38.00000000",
+
     },
     {
         "name": "Falkland Islands",
@@ -637,6 +695,7 @@ const countries = [
         "currency": "FKP",
         "latitude": "-51.75000000",
         "longitude": "-59.00000000",
+
     },
     {
         "name": "Faroe Islands",
@@ -646,6 +705,7 @@ const countries = [
         "currency": "DKK",
         "latitude": "62.00000000",
         "longitude": "-7.00000000",
+
     },
     {
         "name": "Fiji Islands",
@@ -655,6 +715,7 @@ const countries = [
         "currency": "FJD",
         "latitude": "-18.00000000",
         "longitude": "175.00000000",
+
     },
     {
         "name": "Finland",
@@ -664,6 +725,7 @@ const countries = [
         "currency": "EUR",
         "latitude": "64.00000000",
         "longitude": "26.00000000",
+
     },
     {
         "name": "France",
@@ -673,6 +735,7 @@ const countries = [
         "currency": "EUR",
         "latitude": "46.00000000",
         "longitude": "2.00000000",
+
     },
     {
         "name": "French Guiana",
@@ -682,6 +745,7 @@ const countries = [
         "currency": "EUR",
         "latitude": "4.00000000",
         "longitude": "-53.00000000",
+
     },
     {
         "name": "French Polynesia",
@@ -691,6 +755,7 @@ const countries = [
         "currency": "XPF",
         "latitude": "-15.00000000",
         "longitude": "-140.00000000",
+
     },
     {
         "name": "French Southern Territories",
@@ -700,6 +765,7 @@ const countries = [
         "currency": "EUR",
         "latitude": "-49.25000000",
         "longitude": "69.16700000",
+
     },
     {
         "name": "Gabon",
@@ -709,6 +775,7 @@ const countries = [
         "currency": "XAF",
         "latitude": "-1.00000000",
         "longitude": "11.75000000",
+
     },
     {
         "name": "Gambia The",
@@ -718,6 +785,7 @@ const countries = [
         "currency": "GMD",
         "latitude": "13.46666666",
         "longitude": "-16.56666666",
+
     },
     {
         "name": "Georgia",
@@ -727,6 +795,7 @@ const countries = [
         "currency": "GEL",
         "latitude": "42.00000000",
         "longitude": "43.50000000",
+
     },
     {
         "name": "Germany",
@@ -736,6 +805,7 @@ const countries = [
         "currency": "EUR",
         "latitude": "51.00000000",
         "longitude": "9.00000000",
+
     },
     {
         "name": "Ghana",
@@ -745,6 +815,7 @@ const countries = [
         "currency": "GHS",
         "latitude": "8.00000000",
         "longitude": "-2.00000000",
+
     },
     {
         "name": "Gibraltar",
@@ -754,6 +825,7 @@ const countries = [
         "currency": "GIP",
         "latitude": "36.13333333",
         "longitude": "-5.35000000",
+
     },
     {
         "name": "Greece",
@@ -763,6 +835,7 @@ const countries = [
         "currency": "EUR",
         "latitude": "39.00000000",
         "longitude": "22.00000000",
+
     },
     {
         "name": "Greenland",
@@ -772,6 +845,7 @@ const countries = [
         "currency": "DKK",
         "latitude": "72.00000000",
         "longitude": "-40.00000000",
+
     },
     {
         "name": "Grenada",
@@ -781,6 +855,7 @@ const countries = [
         "currency": "XCD",
         "latitude": "12.11666666",
         "longitude": "-61.66666666",
+
     },
     {
         "name": "Guadeloupe",
@@ -790,6 +865,7 @@ const countries = [
         "currency": "EUR",
         "latitude": "16.25000000",
         "longitude": "-61.58333300",
+
     },
     {
         "name": "Guam",
@@ -799,6 +875,7 @@ const countries = [
         "currency": "USD",
         "latitude": "13.46666666",
         "longitude": "144.78333333",
+
     },
     {
         "name": "Guatemala",
@@ -808,6 +885,7 @@ const countries = [
         "currency": "GTQ",
         "latitude": "15.50000000",
         "longitude": "-90.25000000",
+
     },
     {
         "name": "Guernsey and Alderney",
@@ -817,6 +895,7 @@ const countries = [
         "currency": "GBP",
         "latitude": "49.46666666",
         "longitude": "-2.58333333",
+
     },
     {
         "name": "Guinea",
@@ -826,6 +905,7 @@ const countries = [
         "currency": "GNF",
         "latitude": "11.00000000",
         "longitude": "-10.00000000",
+
     },
     {
         "name": "Guinea-Bissau",
@@ -835,6 +915,7 @@ const countries = [
         "currency": "XOF",
         "latitude": "12.00000000",
         "longitude": "-15.00000000",
+
     },
     {
         "name": "Guyana",
@@ -844,6 +925,7 @@ const countries = [
         "currency": "GYD",
         "latitude": "5.00000000",
         "longitude": "-59.00000000",
+
     },
     {
         "name": "Haiti",
@@ -853,6 +935,7 @@ const countries = [
         "currency": "HTG",
         "latitude": "19.00000000",
         "longitude": "-72.41666666",
+
     },
     {
         "name": "Heard Island and McDonald Islands",
@@ -862,6 +945,7 @@ const countries = [
         "currency": "AUD",
         "latitude": "-53.10000000",
         "longitude": "72.51666666",
+
     },
     {
         "name": "Honduras",
@@ -871,6 +955,7 @@ const countries = [
         "currency": "HNL",
         "latitude": "15.00000000",
         "longitude": "-86.50000000",
+
     },
     {
         "name": "Hong Kong S.A.R.",
@@ -880,6 +965,7 @@ const countries = [
         "currency": "HKD",
         "latitude": "22.25000000",
         "longitude": "114.16666666",
+
     },
     {
         "name": "Hungary",
@@ -889,6 +975,7 @@ const countries = [
         "currency": "HUF",
         "latitude": "47.00000000",
         "longitude": "20.00000000",
+
     },
     {
         "name": "Iceland",
@@ -898,6 +985,7 @@ const countries = [
         "currency": "ISK",
         "latitude": "65.00000000",
         "longitude": "-18.00000000",
+
     },
     {
         "name": "India",
@@ -907,6 +995,7 @@ const countries = [
         "currency": "INR",
         "latitude": "20.00000000",
         "longitude": "77.00000000",
+
     },
     {
         "name": "Indonesia",
@@ -916,6 +1005,7 @@ const countries = [
         "currency": "IDR",
         "latitude": "-5.00000000",
         "longitude": "120.00000000",
+
     },
     {
         "name": "Iran",
@@ -925,6 +1015,7 @@ const countries = [
         "currency": "IRR",
         "latitude": "32.00000000",
         "longitude": "53.00000000",
+
     },
     {
         "name": "Iraq",
@@ -934,6 +1025,7 @@ const countries = [
         "currency": "IQD",
         "latitude": "33.00000000",
         "longitude": "44.00000000",
+
     },
     {
         "name": "Ireland",
@@ -943,6 +1035,7 @@ const countries = [
         "currency": "EUR",
         "latitude": "53.00000000",
         "longitude": "-8.00000000",
+
     },
     {
         "name": "Israel",
@@ -952,6 +1045,7 @@ const countries = [
         "currency": "ILS",
         "latitude": "31.50000000",
         "longitude": "34.75000000",
+
     },
     {
         "name": "Italy",
@@ -961,6 +1055,7 @@ const countries = [
         "currency": "EUR",
         "latitude": "42.83333333",
         "longitude": "12.83333333",
+
     },
     {
         "name": "Jamaica",
@@ -970,6 +1065,7 @@ const countries = [
         "currency": "JMD",
         "latitude": "18.25000000",
         "longitude": "-77.50000000",
+
     },
     {
         "name": "Japan",
@@ -979,6 +1075,7 @@ const countries = [
         "currency": "JPY",
         "latitude": "36.00000000",
         "longitude": "138.00000000",
+
     },
     {
         "name": "Jersey",
@@ -988,6 +1085,7 @@ const countries = [
         "currency": "GBP",
         "latitude": "49.25000000",
         "longitude": "-2.16666666",
+
     },
     {
         "name": "Jordan",
@@ -997,6 +1095,7 @@ const countries = [
         "currency": "JOD",
         "latitude": "31.00000000",
         "longitude": "36.00000000",
+
     },
     {
         "name": "Kazakhstan",
@@ -1006,6 +1105,7 @@ const countries = [
         "currency": "KZT",
         "latitude": "48.00000000",
         "longitude": "68.00000000",
+
     },
     {
         "name": "Kenya",
@@ -1015,6 +1115,7 @@ const countries = [
         "currency": "KES",
         "latitude": "1.00000000",
         "longitude": "38.00000000",
+
     },
     {
         "name": "Kiribati",
@@ -1024,6 +1125,7 @@ const countries = [
         "currency": "AUD",
         "latitude": "1.41666666",
         "longitude": "173.00000000",
+
     },
     {
         "name": "North Korea",
@@ -1033,6 +1135,7 @@ const countries = [
         "currency": "KPW",
         "latitude": "40.00000000",
         "longitude": "127.00000000",
+
     },
     {
         "name": "South Korea",
@@ -1042,6 +1145,7 @@ const countries = [
         "currency": "KRW",
         "latitude": "37.00000000",
         "longitude": "127.50000000",
+
     },
     {
         "name": "Kuwait",
@@ -1051,6 +1155,7 @@ const countries = [
         "currency": "KWD",
         "latitude": "29.50000000",
         "longitude": "45.75000000",
+
     },
     {
         "name": "Kyrgyzstan",
@@ -1060,6 +1165,7 @@ const countries = [
         "currency": "KGS",
         "latitude": "41.00000000",
         "longitude": "75.00000000",
+
     },
     {
         "name": "Laos",
@@ -1069,6 +1175,7 @@ const countries = [
         "currency": "LAK",
         "latitude": "18.00000000",
         "longitude": "105.00000000",
+
     },
     {
         "name": "Latvia",
@@ -1078,6 +1185,7 @@ const countries = [
         "currency": "EUR",
         "latitude": "57.00000000",
         "longitude": "25.00000000",
+
     },
     {
         "name": "Lebanon",
@@ -1087,6 +1195,7 @@ const countries = [
         "currency": "LBP",
         "latitude": "33.83333333",
         "longitude": "35.83333333",
+
     },
     {
         "name": "Lesotho",
@@ -1096,6 +1205,7 @@ const countries = [
         "currency": "LSL",
         "latitude": "-29.50000000",
         "longitude": "28.50000000",
+
     },
     {
         "name": "Liberia",
@@ -1105,6 +1215,7 @@ const countries = [
         "currency": "LRD",
         "latitude": "6.50000000",
         "longitude": "-9.50000000",
+
     },
     {
         "name": "Libya",
@@ -1114,6 +1225,7 @@ const countries = [
         "currency": "LYD",
         "latitude": "25.00000000",
         "longitude": "17.00000000",
+
     },
     {
         "name": "Liechtenstein",
@@ -1123,6 +1235,7 @@ const countries = [
         "currency": "CHF",
         "latitude": "47.26666666",
         "longitude": "9.53333333",
+
     },
     {
         "name": "Lithuania",
@@ -1132,6 +1245,7 @@ const countries = [
         "currency": "EUR",
         "latitude": "56.00000000",
         "longitude": "24.00000000",
+
     },
     {
         "name": "Luxembourg",
@@ -1141,6 +1255,7 @@ const countries = [
         "currency": "EUR",
         "latitude": "49.75000000",
         "longitude": "6.16666666",
+
     },
     {
         "name": "Macau S.A.R.",
@@ -1150,6 +1265,7 @@ const countries = [
         "currency": "MOP",
         "latitude": "22.16666666",
         "longitude": "113.55000000",
+
     },
     {
         "name": "Macedonia",
@@ -1159,6 +1275,7 @@ const countries = [
         "currency": "MKD",
         "latitude": "41.83333333",
         "longitude": "22.00000000",
+
     },
     {
         "name": "Madagascar",
@@ -1168,6 +1285,7 @@ const countries = [
         "currency": "MGA",
         "latitude": "-20.00000000",
         "longitude": "47.00000000",
+
     },
     {
         "name": "Malawi",
@@ -1177,6 +1295,7 @@ const countries = [
         "currency": "MWK",
         "latitude": "-13.50000000",
         "longitude": "34.00000000",
+
     },
     {
         "name": "Malaysia",
@@ -1186,6 +1305,7 @@ const countries = [
         "currency": "MYR",
         "latitude": "2.50000000",
         "longitude": "112.50000000",
+
     },
     {
         "name": "Maldives",
@@ -1195,6 +1315,7 @@ const countries = [
         "currency": "MVR",
         "latitude": "3.25000000",
         "longitude": "73.00000000",
+
     },
     {
         "name": "Mali",
@@ -1204,6 +1325,7 @@ const countries = [
         "currency": "XOF",
         "latitude": "17.00000000",
         "longitude": "-4.00000000",
+
     },
     {
         "name": "Malta",
@@ -1213,6 +1335,7 @@ const countries = [
         "currency": "EUR",
         "latitude": "35.83333333",
         "longitude": "14.58333333",
+
     },
     {
         "name": "Man (Isle of)",
@@ -1222,6 +1345,7 @@ const countries = [
         "currency": "GBP",
         "latitude": "54.25000000",
         "longitude": "-4.50000000",
+
     },
     {
         "name": "Marshall Islands",
@@ -1231,6 +1355,7 @@ const countries = [
         "currency": "USD",
         "latitude": "9.00000000",
         "longitude": "168.00000000",
+
     },
     {
         "name": "Martinique",
@@ -1240,6 +1365,7 @@ const countries = [
         "currency": "EUR",
         "latitude": "14.66666700",
         "longitude": "-61.00000000",
+
     },
     {
         "name": "Mauritania",
@@ -1249,6 +1375,7 @@ const countries = [
         "currency": "MRO",
         "latitude": "20.00000000",
         "longitude": "-12.00000000",
+
     },
     {
         "name": "Mauritius",
@@ -1258,6 +1385,7 @@ const countries = [
         "currency": "MUR",
         "latitude": "-20.28333333",
         "longitude": "57.55000000",
+
     },
     {
         "name": "Mayotte",
@@ -1267,6 +1395,7 @@ const countries = [
         "currency": "EUR",
         "latitude": "-12.83333333",
         "longitude": "45.16666666",
+
     },
     {
         "name": "Mexico",
@@ -1276,6 +1405,7 @@ const countries = [
         "currency": "MXN",
         "latitude": "23.00000000",
         "longitude": "-102.00000000",
+
     },
     {
         "name": "Micronesia",
@@ -1285,6 +1415,7 @@ const countries = [
         "currency": "USD",
         "latitude": "6.91666666",
         "longitude": "158.25000000",
+
     },
     {
         "name": "Moldova",
@@ -1294,6 +1425,7 @@ const countries = [
         "currency": "MDL",
         "latitude": "47.00000000",
         "longitude": "29.00000000",
+
     },
     {
         "name": "Monaco",
@@ -1303,6 +1435,7 @@ const countries = [
         "currency": "EUR",
         "latitude": "43.73333333",
         "longitude": "7.40000000",
+
     },
     {
         "name": "Mongolia",
@@ -1312,6 +1445,7 @@ const countries = [
         "currency": "MNT",
         "latitude": "46.00000000",
         "longitude": "105.00000000",
+
     },
     {
         "name": "Montenegro",
@@ -1321,6 +1455,7 @@ const countries = [
         "currency": "EUR",
         "latitude": "42.50000000",
         "longitude": "19.30000000",
+
     },
     {
         "name": "Montserrat",
@@ -1330,6 +1465,7 @@ const countries = [
         "currency": "XCD",
         "latitude": "16.75000000",
         "longitude": "-62.20000000",
+
     },
     {
         "name": "Morocco",
@@ -1339,6 +1475,7 @@ const countries = [
         "currency": "MAD",
         "latitude": "32.00000000",
         "longitude": "-5.00000000",
+
     },
     {
         "name": "Mozambique",
@@ -1348,6 +1485,7 @@ const countries = [
         "currency": "MZN",
         "latitude": "-18.25000000",
         "longitude": "35.00000000",
+
     },
     {
         "name": "Myanmar",
@@ -1357,6 +1495,7 @@ const countries = [
         "currency": "MMK",
         "latitude": "22.00000000",
         "longitude": "98.00000000",
+
     },
     {
         "name": "Namibia",
@@ -1366,6 +1505,7 @@ const countries = [
         "currency": "NAD",
         "latitude": "-22.00000000",
         "longitude": "17.00000000",
+
     },
     {
         "name": "Nauru",
@@ -1375,6 +1515,7 @@ const countries = [
         "currency": "AUD",
         "latitude": "-0.53333333",
         "longitude": "166.91666666",
+
     },
     {
         "name": "Nepal",
@@ -1393,6 +1534,7 @@ const countries = [
         "currency": "USD",
         "latitude": "12.15000000",
         "longitude": "-68.26666700",
+
     },
     {
         "name": "Netherlands",
@@ -1402,6 +1544,7 @@ const countries = [
         "currency": "EUR",
         "latitude": "52.50000000",
         "longitude": "5.75000000",
+
     },
     {
         "name": "New Caledonia",
@@ -1411,6 +1554,7 @@ const countries = [
         "currency": "XPF",
         "latitude": "-21.50000000",
         "longitude": "165.50000000",
+
     },
     {
         "name": "New Zealand",
@@ -1420,6 +1564,7 @@ const countries = [
         "currency": "NZD",
         "latitude": "-41.00000000",
         "longitude": "174.00000000",
+
     },
     {
         "name": "Nicaragua",
@@ -1429,6 +1574,7 @@ const countries = [
         "currency": "NIO",
         "latitude": "13.00000000",
         "longitude": "-85.00000000",
+
     },
     {
         "name": "Niger",
@@ -1438,6 +1584,7 @@ const countries = [
         "currency": "XOF",
         "latitude": "16.00000000",
         "longitude": "8.00000000",
+
     },
     {
         "name": "Nigeria",
@@ -1447,6 +1594,7 @@ const countries = [
         "currency": "NGN",
         "latitude": "10.00000000",
         "longitude": "8.00000000",
+
     },
     {
         "name": "Niue",
@@ -1456,6 +1604,7 @@ const countries = [
         "currency": "NZD",
         "latitude": "-19.03333333",
         "longitude": "-169.86666666",
+
     },
     {
         "name": "Norfolk Island",
@@ -1465,6 +1614,7 @@ const countries = [
         "currency": "AUD",
         "latitude": "-29.03333333",
         "longitude": "167.95000000",
+
     },
     {
         "name": "Northern Mariana Islands",
@@ -1474,6 +1624,7 @@ const countries = [
         "currency": "USD",
         "latitude": "15.20000000",
         "longitude": "145.75000000",
+
     },
     {
         "name": "Norway",
@@ -1483,6 +1634,7 @@ const countries = [
         "currency": "NOK",
         "latitude": "62.00000000",
         "longitude": "10.00000000",
+
     },
     {
         "name": "Oman",
@@ -1492,6 +1644,7 @@ const countries = [
         "currency": "OMR",
         "latitude": "21.00000000",
         "longitude": "57.00000000",
+
     },
     {
         "name": "Pakistan",
@@ -1501,6 +1654,7 @@ const countries = [
         "currency": "PKR",
         "latitude": "30.00000000",
         "longitude": "70.00000000",
+
     },
     {
         "name": "Palau",
@@ -1510,6 +1664,7 @@ const countries = [
         "currency": "USD",
         "latitude": "7.50000000",
         "longitude": "134.50000000",
+
     },
     {
         "name": "Palestinian Territory Occupied",
@@ -1519,6 +1674,7 @@ const countries = [
         "currency": "ILS",
         "latitude": "31.90000000",
         "longitude": "35.20000000",
+
     },
     {
         "name": "Panama",
@@ -1528,6 +1684,7 @@ const countries = [
         "currency": "PAB",
         "latitude": "9.00000000",
         "longitude": "-80.00000000",
+
     },
     {
         "name": "Papua new Guinea",
@@ -1537,6 +1694,7 @@ const countries = [
         "currency": "PGK",
         "latitude": "-6.00000000",
         "longitude": "147.00000000",
+
     },
     {
         "name": "Paraguay",
@@ -1546,6 +1704,7 @@ const countries = [
         "currency": "PYG",
         "latitude": "-23.00000000",
         "longitude": "-58.00000000",
+
     },
     {
         "name": "Peru",
@@ -1555,6 +1714,7 @@ const countries = [
         "currency": "PEN",
         "latitude": "-10.00000000",
         "longitude": "-76.00000000",
+
     },
     {
         "name": "Philippines",
@@ -1564,6 +1724,7 @@ const countries = [
         "currency": "PHP",
         "latitude": "13.00000000",
         "longitude": "122.00000000",
+
     },
     {
         "name": "Pitcairn Island",
@@ -1573,6 +1734,7 @@ const countries = [
         "currency": "NZD",
         "latitude": "-25.06666666",
         "longitude": "-130.10000000",
+
     },
     {
         "name": "Poland",
@@ -1582,6 +1744,7 @@ const countries = [
         "currency": "PLN",
         "latitude": "52.00000000",
         "longitude": "20.00000000",
+
     },
     {
         "name": "Portugal",
@@ -1591,6 +1754,7 @@ const countries = [
         "currency": "EUR",
         "latitude": "39.50000000",
         "longitude": "-8.00000000",
+
     },
     {
         "name": "Puerto Rico",
@@ -1600,6 +1764,7 @@ const countries = [
         "currency": "USD",
         "latitude": "18.25000000",
         "longitude": "-66.50000000",
+
     },
     {
         "name": "Qatar",
@@ -1609,6 +1774,7 @@ const countries = [
         "currency": "QAR",
         "latitude": "25.50000000",
         "longitude": "51.25000000",
+
     },
     {
         "name": "Reunion",
@@ -1618,6 +1784,7 @@ const countries = [
         "currency": "EUR",
         "latitude": "-21.15000000",
         "longitude": "55.50000000",
+
     },
     {
         "name": "Romania",
@@ -1627,6 +1794,7 @@ const countries = [
         "currency": "RON",
         "latitude": "46.00000000",
         "longitude": "25.00000000",
+
     },
     {
         "name": "Russia",
@@ -1636,6 +1804,7 @@ const countries = [
         "currency": "RUB",
         "latitude": "60.00000000",
         "longitude": "100.00000000",
+
     },
     {
         "name": "Rwanda",
@@ -1645,6 +1814,7 @@ const countries = [
         "currency": "RWF",
         "latitude": "-2.00000000",
         "longitude": "30.00000000",
+
     },
     {
         "name": "Saint Helena",
@@ -1654,6 +1824,7 @@ const countries = [
         "currency": "SHP",
         "latitude": "-15.95000000",
         "longitude": "-5.70000000",
+
     },
     {
         "name": "Saint Kitts And Nevis",
@@ -1663,6 +1834,7 @@ const countries = [
         "currency": "XCD",
         "latitude": "17.33333333",
         "longitude": "-62.75000000",
+
     },
     {
         "name": "Saint Lucia",
@@ -1672,6 +1844,7 @@ const countries = [
         "currency": "XCD",
         "latitude": "13.88333333",
         "longitude": "-60.96666666",
+
     },
     {
         "name": "Saint Pierre and Miquelon",
@@ -1681,6 +1854,7 @@ const countries = [
         "currency": "EUR",
         "latitude": "46.83333333",
         "longitude": "-56.33333333",
+
     },
     {
         "name": "Saint Vincent And The Grenadines",
@@ -1690,6 +1864,7 @@ const countries = [
         "currency": "XCD",
         "latitude": "13.25000000",
         "longitude": "-61.20000000",
+
     },
     {
         "name": "Saint-Barthelemy",
@@ -1699,6 +1874,7 @@ const countries = [
         "currency": "EUR",
         "latitude": "18.50000000",
         "longitude": "-63.41666666",
+
     },
     {
         "name": "Saint-Martin (French part)",
@@ -1708,6 +1884,7 @@ const countries = [
         "currency": "EUR",
         "latitude": "18.08333333",
         "longitude": "-63.95000000",
+
     },
     {
         "name": "Samoa",
@@ -1717,6 +1894,7 @@ const countries = [
         "currency": "WST",
         "latitude": "-13.58333333",
         "longitude": "-172.33333333",
+
     },
     {
         "name": "San Marino",
@@ -1726,6 +1904,7 @@ const countries = [
         "currency": "EUR",
         "latitude": "43.76666666",
         "longitude": "12.41666666",
+
     },
     {
         "name": "Sao Tome and Principe",
@@ -1735,6 +1914,7 @@ const countries = [
         "currency": "STD",
         "latitude": "1.00000000",
         "longitude": "7.00000000",
+
     },
     {
         "name": "Saudi Arabia",
@@ -1744,6 +1924,7 @@ const countries = [
         "currency": "SAR",
         "latitude": "25.00000000",
         "longitude": "45.00000000",
+
     },
     {
         "name": "Senegal",
@@ -1753,6 +1934,7 @@ const countries = [
         "currency": "XOF",
         "latitude": "14.00000000",
         "longitude": "-14.00000000",
+
     },
     {
         "name": "Serbia",
@@ -1762,6 +1944,7 @@ const countries = [
         "currency": "RSD",
         "latitude": "44.00000000",
         "longitude": "21.00000000",
+
     },
     {
         "name": "Seychelles",
@@ -1771,6 +1954,7 @@ const countries = [
         "currency": "SCR",
         "latitude": "-4.58333333",
         "longitude": "55.66666666",
+
     },
     {
         "name": "Sierra Leone",
@@ -1780,6 +1964,7 @@ const countries = [
         "currency": "SLL",
         "latitude": "8.50000000",
         "longitude": "-11.50000000",
+
     },
     {
         "name": "Singapore",
@@ -1789,6 +1974,7 @@ const countries = [
         "currency": "SGD",
         "latitude": "1.36666666",
         "longitude": "103.80000000",
+
     },
     {
         "name": "Slovakia",
@@ -1798,6 +1984,7 @@ const countries = [
         "currency": "EUR",
         "latitude": "48.66666666",
         "longitude": "19.50000000",
+
     },
     {
         "name": "Slovenia",
@@ -1807,6 +1994,7 @@ const countries = [
         "currency": "EUR",
         "latitude": "46.11666666",
         "longitude": "14.81666666",
+
     },
     {
         "name": "Solomon Islands",
@@ -1816,6 +2004,7 @@ const countries = [
         "currency": "SBD",
         "latitude": "-8.00000000",
         "longitude": "159.00000000",
+
     },
     {
         "name": "Somalia",
@@ -1825,6 +2014,7 @@ const countries = [
         "currency": "SOS",
         "latitude": "10.00000000",
         "longitude": "49.00000000",
+
     },
     {
         "name": "South Africa",
@@ -1834,6 +2024,7 @@ const countries = [
         "currency": "ZAR",
         "latitude": "-29.00000000",
         "longitude": "24.00000000",
+
     },
     {
         "name": "South Georgia",
@@ -1843,6 +2034,7 @@ const countries = [
         "currency": "GBP",
         "latitude": "-54.50000000",
         "longitude": "-37.00000000",
+
     },
     {
         "name": "South Sudan",
@@ -1852,6 +2044,7 @@ const countries = [
         "currency": "SSP",
         "latitude": "7.00000000",
         "longitude": "30.00000000",
+
     },
     {
         "name": "Spain",
@@ -1861,6 +2054,7 @@ const countries = [
         "currency": "EUR",
         "latitude": "40.00000000",
         "longitude": "-4.00000000",
+
     },
     {
         "name": "Sri Lanka",
@@ -1870,6 +2064,7 @@ const countries = [
         "currency": "LKR",
         "latitude": "7.00000000",
         "longitude": "81.00000000",
+
     },
     {
         "name": "Sudan",
@@ -1879,6 +2074,7 @@ const countries = [
         "currency": "SDG",
         "latitude": "15.00000000",
         "longitude": "30.00000000",
+
     },
     {
         "name": "Suriname",
@@ -1888,6 +2084,7 @@ const countries = [
         "currency": "SRD",
         "latitude": "4.00000000",
         "longitude": "-56.00000000",
+
     },
     {
         "name": "Svalbard And Jan Mayen Islands",
@@ -1897,6 +2094,7 @@ const countries = [
         "currency": "NOK",
         "latitude": "78.00000000",
         "longitude": "20.00000000",
+
     },
     {
         "name": "Swaziland",
@@ -1906,6 +2104,7 @@ const countries = [
         "currency": "SZL",
         "latitude": "-26.50000000",
         "longitude": "31.50000000",
+
     },
     {
         "name": "Sweden",
@@ -1915,6 +2114,7 @@ const countries = [
         "currency": "SEK",
         "latitude": "62.00000000",
         "longitude": "15.00000000",
+
     },
     {
         "name": "Switzerland",
@@ -1924,6 +2124,7 @@ const countries = [
         "currency": "CHF",
         "latitude": "47.00000000",
         "longitude": "8.00000000",
+
     },
     {
         "name": "Syria",
@@ -1933,6 +2134,7 @@ const countries = [
         "currency": "SYP",
         "latitude": "35.00000000",
         "longitude": "38.00000000",
+
     },
     {
         "name": "Taiwan",
@@ -1942,6 +2144,7 @@ const countries = [
         "currency": "TWD",
         "latitude": "23.50000000",
         "longitude": "121.00000000",
+
     },
     {
         "name": "Tajikistan",
@@ -1951,6 +2154,7 @@ const countries = [
         "currency": "TJS",
         "latitude": "39.00000000",
         "longitude": "71.00000000",
+
     },
     {
         "name": "Tanzania",
@@ -1960,6 +2164,7 @@ const countries = [
         "currency": "TZS",
         "latitude": "-6.00000000",
         "longitude": "35.00000000",
+
     },
     {
         "name": "Thailand",
@@ -1969,6 +2174,7 @@ const countries = [
         "currency": "THB",
         "latitude": "15.00000000",
         "longitude": "100.00000000",
+
     },
     {
         "name": "Togo",
@@ -1978,6 +2184,7 @@ const countries = [
         "currency": "XOF",
         "latitude": "8.00000000",
         "longitude": "1.16666666",
+
     },
     {
         "name": "Tokelau",
@@ -1987,6 +2194,7 @@ const countries = [
         "currency": "NZD",
         "latitude": "-9.00000000",
         "longitude": "-172.00000000",
+
     },
     {
         "name": "Tonga",
@@ -1996,6 +2204,7 @@ const countries = [
         "currency": "TOP",
         "latitude": "-20.00000000",
         "longitude": "-175.00000000",
+
     },
     {
         "name": "Trinidad And Tobago",
@@ -2005,6 +2214,7 @@ const countries = [
         "currency": "TTD",
         "latitude": "11.00000000",
         "longitude": "-61.00000000",
+
     },
     {
         "name": "Tunisia",
@@ -2014,6 +2224,7 @@ const countries = [
         "currency": "TND",
         "latitude": "34.00000000",
         "longitude": "9.00000000",
+
     },
     {
         "name": "Turkey",
@@ -2023,6 +2234,7 @@ const countries = [
         "currency": "TRY",
         "latitude": "39.00000000",
         "longitude": "35.00000000",
+
     },
     {
         "name": "Turkmenistan",
@@ -2032,6 +2244,7 @@ const countries = [
         "currency": "TMT",
         "latitude": "40.00000000",
         "longitude": "60.00000000",
+
     },
     {
         "name": "Turks And Caicos Islands",
@@ -2041,6 +2254,7 @@ const countries = [
         "currency": "USD",
         "latitude": "21.75000000",
         "longitude": "-71.58333333",
+
     },
     {
         "name": "Tuvalu",
@@ -2050,6 +2264,7 @@ const countries = [
         "currency": "AUD",
         "latitude": "-8.00000000",
         "longitude": "178.00000000",
+
     },
     {
         "name": "Uganda",
@@ -2059,6 +2274,7 @@ const countries = [
         "currency": "UGX",
         "latitude": "1.00000000",
         "longitude": "32.00000000",
+
     },
     {
         "name": "Ukraine",
@@ -2068,6 +2284,7 @@ const countries = [
         "currency": "UAH",
         "latitude": "49.00000000",
         "longitude": "32.00000000",
+
     },
     {
         "name": "United Arab Emirates",
@@ -2077,6 +2294,7 @@ const countries = [
         "currency": "AED",
         "latitude": "24.00000000",
         "longitude": "54.00000000",
+
     },
     {
         "name": "United Kingdom",
@@ -2086,6 +2304,7 @@ const countries = [
         "currency": "GBP",
         "latitude": "54.00000000",
         "longitude": "-2.00000000",
+
     },
     {
         "name": "United States",
@@ -2104,6 +2323,7 @@ const countries = [
         "currency": "USD",
         "latitude": "0.00000000",
         "longitude": "0.00000000",
+
     },
     {
         "name": "Uruguay",
@@ -2113,6 +2333,7 @@ const countries = [
         "currency": "UYU",
         "latitude": "-33.00000000",
         "longitude": "-56.00000000",
+
     },
     {
         "name": "Uzbekistan",
@@ -2122,6 +2343,7 @@ const countries = [
         "currency": "UZS",
         "latitude": "41.00000000",
         "longitude": "64.00000000",
+
     },
     {
         "name": "Vanuatu",
@@ -2131,6 +2353,7 @@ const countries = [
         "currency": "VUV",
         "latitude": "-16.00000000",
         "longitude": "167.00000000",
+
     },
     {
         "name": "Vatican City State (Holy See)",
@@ -2140,6 +2363,7 @@ const countries = [
         "currency": "EUR",
         "latitude": "41.90000000",
         "longitude": "12.45000000",
+
     },
     {
         "name": "Venezuela",
@@ -2149,6 +2373,7 @@ const countries = [
         "currency": "VEF",
         "latitude": "8.00000000",
         "longitude": "-66.00000000",
+
     },
     {
         "name": "Vietnam",
@@ -2158,6 +2383,7 @@ const countries = [
         "currency": "VND",
         "latitude": "16.16666666",
         "longitude": "107.83333333",
+
     },
     {
         "name": "Virgin Islands (British)",
@@ -2167,6 +2393,7 @@ const countries = [
         "currency": "USD",
         "latitude": "18.43138300",
         "longitude": "-64.62305000",
+
     },
     {
         "name": "Virgin Islands (US)",
@@ -2176,6 +2403,7 @@ const countries = [
         "currency": "USD",
         "latitude": "18.34000000",
         "longitude": "-64.93000000",
+
     },
     {
         "name": "Wallis And Futuna Islands",
@@ -2185,6 +2413,7 @@ const countries = [
         "currency": "XPF",
         "latitude": "-13.30000000",
         "longitude": "-176.20000000",
+
     },
     {
         "name": "Western Sahara",
@@ -2194,6 +2423,7 @@ const countries = [
         "currency": "MAD",
         "latitude": "24.50000000",
         "longitude": "-13.00000000",
+
     },
     {
         "name": "Yemen",
@@ -2203,6 +2433,7 @@ const countries = [
         "currency": "YER",
         "latitude": "15.00000000",
         "longitude": "48.00000000",
+
     },
     {
         "name": "Zambia",
@@ -2212,6 +2443,7 @@ const countries = [
         "currency": "ZMW",
         "latitude": "-15.00000000",
         "longitude": "30.00000000",
+
     },
     {
         "name": "Zimbabwe",
@@ -2221,6 +2453,7 @@ const countries = [
         "currency": "ZWL",
         "latitude": "-20.00000000",
         "longitude": "30.00000000",
+
     },
     {
         "name": "Kosovo",
@@ -2230,6 +2463,7 @@ const countries = [
         "currency": "EUR",
         "latitude": "42.56129090",
         "longitude": "20.34030350",
+
     },
     {
         "name": "Curaçao",
@@ -2239,6 +2473,7 @@ const countries = [
         "currency": "ANG",
         "latitude": "12.11666700",
         "longitude": "-68.93333300",
+
     },
     {
         "name": "Sint Maarten (Dutch part)",
@@ -2248,54 +2483,8 @@ const countries = [
         "currency": "ANG",
         "latitude": "18.03333300",
         "longitude": "-63.05000000",
+
     }
-];
-
-const dropdown = document.querySelector('#country-name-dropdown');
-const url = 'https://countryflagsapi.com/:filetype/:code';
-const form = document.querySelector('#flag-select');
-const button = document.querySelector('#btn');
-
-
-
-window.addEventListener('load', (event) => {
-    countries.forEach((country) => {
-        const option = document.createElement('option');
-        option.value = country.isoCode;
-        option.innerHTML = country.name;
-        option.setAttribute('lat', country.latitude);
-        option.setAttribute('long', country.longitude);
-        dropdown.appendChild(option);
-    });
-});
-
-function showFlag(e) {
-    console.log(e);
-    e.preventDefault();
-    const code = dropdown.value;
-    const filetype = document.querySelector('input[name=format]:checked').value;
-    const cname = dropdown.options[dropdown.selectedIndex].text;
-    const lat = dropdown.options[dropdown.selectedIndex].getAttribute('lat');
-    const long = dropdown.options[dropdown.selectedIndex].getAttribute('long');
-    console.log(cname, lat, long);
-    const countryNameHeader = document.querySelector('#country-name-header');
-    countryNameHeader.innerHTML = cname;
-    const img = document.querySelector('#flag-img');
-    img.src = `https://countryflagsapi.com/${filetype}/${code}`;
-
-    // make a call to 
-};
-
-button.addEventListener('click', showFlag);
-
-
-
-
-
-
-
-
-
-
+]
 
 
