@@ -12,7 +12,37 @@
 </head>
 
 <body>
-    <h1>FLAGS AROUND THE WORLD ARE SOOOOOO COOOOOL !!!!!!</h1>
+    <h1>FLAGS AROUND THE WORLD ARE SO COOL !!!</h1>
+
+    <form id="flag-select">
+
+        <label for="country-name-dropdown">Select Your Country</label>
+        <select id="country-name-dropdown"></select>
+
+
+        <div id="radio">
+            <legend>SELECT YOUR FORMAT:</legend>
+
+            <input type="radio" id="PNG" name="format" value="png">
+            <label for="PNG">PNG</label>
+            <input type="radio" id="SVG" name="format" value="svg">
+            <label for="dewey">SVG</label>
+
+        </div>
+
+
+        <br>
+        <button id="btn">See Flag</button>
+
+    </form>
+
+    <div id="content">
+        <h1 id="country-name-header"></h1>
+        <img id="flag-img" src="" />
+    </div>
+
+
+    <script src="app.js"></script>
 
 </body>
 
